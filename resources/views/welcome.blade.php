@@ -182,7 +182,6 @@
 
         </div>
     </section>
-
     @include('includes.pricing')
     @include('includes.our-product')
     @include('includes.missions')
@@ -231,6 +230,7 @@
     </div>
     @include('includes.testinomial')
     @include('includes.model')
+    @include('includes/no_of_clients')
 
 @endsection
 

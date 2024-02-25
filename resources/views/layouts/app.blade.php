@@ -48,8 +48,20 @@
                     <li class="nav-item nav-hover">
                         <a class="nav-link" href="{{ route('services') }}">Services</a>
                     </li>
-                    <li class="nav-item nav-hover">
-                        <a class="nav-link" href="{{ route('products') }}">Products</a>
+
+                    <li class="nav-item dropdown drop-nav">
+                        <a class="nav-link  dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">
+                            Products </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="{{ asset('products') }}"> School Management System
+                                    (SMS)</a></li>
+                            <li><a class="dropdown-item" href="{{ asset('products') }}">Inventory Management System
+                                    (IMS)</a></li>
+                            <li><a class="dropdown-item" href="{{ asset('products') }}">Hospital Management System
+                                    (HMS)</a></li>
+                            <li><a class="dropdown-item" href="{{ asset('products') }}">Restaurant Management System
+                                    (HMS)</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item nav-hover">
                         <a class="nav-link" href="{{ route('pricing') }}">Pricing</a>
@@ -120,7 +132,8 @@
 
                             <ul class="fa-ul" style="margin-left: 1.65em;">
                                 <li class="mb-3">
-                                    <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Warsaw,
+                                    <span class="fa-li"><i class="fas fa-home"></i></span><span
+                                        class="ms-2">Warsaw,
                                         00-967, Poland</span>
                                 </li>
                                 <li class="mb-3">

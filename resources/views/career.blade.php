@@ -28,7 +28,8 @@
         <div class="container">
             <div class="row md-m-25px-b m-45px-b justify-content-center text-center">
                 <div class="col-lg-8">
-                    <h3 class="h1 m-15px-b">Job Positions</h3>
+                    <span class="badge">Explore</span>
+                    <h3 class="display-3 fw-bold ">Job Positions</h3>
                     <p class="m-0px font-2">Luper is a HTML5 template based on Sass and Bootstrap 4 with modern and creative
                         multipurpose design you can use it as a startups.</p>
                 </div>

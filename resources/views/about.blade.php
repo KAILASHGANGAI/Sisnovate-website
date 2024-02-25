@@ -265,7 +265,8 @@
                 <div class="col-lg-8">
                     <div class="section-title text-center pb-60">
                         <h6 class="sub-titler">Our</h6>
-                        <h3 class="main-title display-4 fw-bold  pb-4">Supports and Services</h3>
+
+                        <h3 class="main-title display-3 fw-bold  pb-4">Supports and Services</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque facere veritatis dolorem ab
                             molestiae cumque eius hic? Cumque, aperiam!</p>
                         <img src="{{ asset('shapes/star.svg') }}" class="section-title-img" alt=""

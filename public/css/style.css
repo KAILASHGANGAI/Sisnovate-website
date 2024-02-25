@@ -34,6 +34,39 @@ body {
     color: white;
 }
 
+.drop-nav .dropdown-menu {
+    background: #035c73;
+    animation: fadeInDown 0.5s;
+
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
 .fixed-top {
     background: #035c73;
     color: white;
@@ -750,6 +783,19 @@ h2 {
     height: 100px;
 }
 
+.product-img {
+    content: "";
+    position: absolute;
+    bottom: 5rem;
+    right: 150px;
+    width: 480px;
+
+}
+
+.box {
+    box-shadow: 0px 0px 11px 0px rgba(237, 237, 237, 1);
+}
+
 .service-img {
     top: 98px !important;
 }
@@ -904,6 +950,15 @@ h2.title {
 
 .contact {
     padding-bottom: 5rem !important;
+}
+
+.product {
+    padding-bottom: 0 !important;
+}
+
+.product-svg {
+    margin-top: -3rem;
+    z-index: -1;
 }
 
 .contact-form {
@@ -1131,4 +1186,26 @@ h2.title {
 .search-input:focus {
     border-bottom: 2px solid #035c73;
     /* You can customize the color */
+}
+
+.content-header {
+    background: #035c73;
+    background-image: url(../images/lotify-images/bubble.svg);
+    background-attachment: fixed;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: white;
+}
+
+.content-header .title {
+    color: white;
+
+}
+
+.banner-demo {
+    background: url(../shapes/demo_contact_bg-svg.svg) no-repeat center/cover;
+    /* background-attachment: fixed; */
+    color: white;
+
+
 }

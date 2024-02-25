@@ -2,6 +2,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-12">
+                <span class="badge">Explore</span>
                 <h1 class="display-3 fw-bold ">Testimonials</h1>
                 <hr class="bg- mb-4 mt-0 d-inline-block mx-auto" style="width: 100px; height:3px;">
                 <p class="p-text text-">What our clients are saying</p>
@@ -90,7 +91,7 @@
     }
 
     .snip1533 div {
-        padding: 13% 10% 12%;
+        padding: 13% 2% 5%;
     }
 
     .snip1533 div:before {
