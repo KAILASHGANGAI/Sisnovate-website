@@ -100,7 +100,9 @@
 @endsection
 
 @section('content')
-    <section class="container-fluid">
+    @include('includes.service')
+
+    {{-- <section class="container-fluid">
 
         <div class="service-section">
             <div class="container-fluid">
@@ -169,7 +171,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <section id="find" class="home-find2">
         <div class="home-heading09 py-4">
             <h2 class="home-header13">Find a local guide now</h2>
@@ -229,7 +231,7 @@
         <div class="cube"></div>
     </div>
     @include('includes.testinomial')
-    @include('includes.model')
+    {{-- @include('includes.model') --}}
     @include('includes/no_of_clients')
 
 @endsection
