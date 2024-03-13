@@ -1,9 +1,9 @@
 @extends('layouts.app')
 @section('title', 'About Page Title')
 @section('banner-slider')
-    <div class="nornal-banner particles-container pb-0">
+    <div class="nornal-banner pb-0">
         <div id="particles-js"></div>
-        <div class="about-us-text w-50">
+        <div class="w-50 about-us-text  ">
 
             <h1 class="display-3" data-aos="fade-up">About Us !!</h1>
             <p data-aos="fade-left">Who We Are?</p>
@@ -11,9 +11,9 @@
                 magnam asperiores
                 cupiditate dolores repudiandae maiores sunt recusandae?</p>
         </div>
-        <div data-aos="fade-up" class="d-flex pt-4">
-            <a class="button-86 mx-3" href="#" role="button">Contact Us</a>
-            <a class="button-87 mx-3" href="#" role="button">Let's Demo</a>
+        <div data-aos="fade-up" class="d-flex pt-4 m2">
+            <a class="button-86 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Contact Us</a>
+            <a class="button-87 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Let's Demo</a>
         </div>
     </div>
     <img src="{{ asset('shapes/5.png') }}" data-aos="fade-up" class="about-image" alt="" srcset="">
@@ -21,7 +21,8 @@
     <img src="{{ asset('shapes/dot-line.svg') }}" class="dot-img-left" alt="">
     <img src="{{ asset('shapes/dot-line.svg') }}" class="dot-img-right" alt="">
     <div style="height:150px">
-        <img src="{{ asset('shapes/wave.svg') }}" width="100%" height="150px" alt="" srcset="">
+        <img src="{{ asset('shapes/wave.svg') }}" width="100%" height="150px" alt="" class="wave-image"
+            srcset="">
     </div>
 @endsection
 <style>

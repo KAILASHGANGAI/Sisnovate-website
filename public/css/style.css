@@ -536,10 +536,11 @@ h2 {
 }
 
 .why-choose-us {
-    background-color: #2c3e50;
+    background-color: #035c73;
     color: #ecf0f1;
     padding: 80px 0;
     text-align: center;
+
 }
 
 .feature {
@@ -551,7 +552,7 @@ h2 {
 
 .feature i {
     font-size: 48px;
-    color: #3498db;
+
 }
 
 .feature h3 {
@@ -572,7 +573,7 @@ h2 {
 .hero {
 
     position: relative;
-    height: 76vh;
+    /* height: 76vh; */
     overflow: hidden;
     font-family: "Montserrat", sans-serif;
 }
@@ -1209,3 +1210,198 @@ h2.title {
 
 
 }
+
+.tab .nav-tabs {
+    /* background-color: #007bff; */
+    border: 1px solid #035c73;
+    /* Set the background color of the tabs */
+    color: white;
+    border-radius: 15px;
+    /* Add a border-radius for rounded corners */
+}
+
+.tab .nav-link {
+    color: #035c73 !important;
+    /* Set the text color of the tabs */
+    font-weight: bold;
+    /* Make the text bold */
+    margin: 1px;
+
+}
+
+.tab .nav-link:hover {
+    background-color: #035c73;
+    border-radius: 15px;
+    color: white !important;
+    /* Change the background color on hover */
+}
+
+.tab .nav-link.active {
+    background-color: #035c73 !important;
+    color: white !important;
+    border-radius: 15px;
+    /* Set the background color of the active tab */
+}
+
+.tab p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Choose an attractive font family */
+    font-size: 18px;
+    /* Set the font size */
+    line-height: 1.5;
+    /* Adjust line height for better readability */
+    color: #333;
+    /* Set the text color */
+}
+
+.tab .button-86::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background: #035c73;
+    border-radius: 10px;
+}
+
+.tab .button-87 {
+    background-image: linear-gradient(45deg, #002561 0%, #0cc658 51%, #0cc652 100%);
+
+}
+
+@media only screen and (max-width: 600px) {
+    .banner1 img {
+        height: 70vh;
+    }
+
+    .banner .carousel-item {
+        height: 70vh;
+    }
+
+    .banner-text {
+        top: 152px;
+        left: 1rem;
+
+    }
+
+    #particles-js {
+        display: none;
+    }
+
+    .button-87 {
+        padding: 8px 15px;
+        margin-left: 18px;
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    .layout {
+        display: none;
+    }
+
+    .svg-img {
+        bottom: 169px;
+    }
+
+    .nav-justified .nav-item {
+        flex-basis: 1;
+    }
+
+    .fa-ul>li {
+        text-align: left !important;
+    }
+
+    .section-title-img {
+        left: 35%;
+    }
+
+    .nornal-banner {
+        padding: 0;
+    }
+
+    .about-image,
+    .product-img {
+        display: none;
+    }
+
+    .dot-img-left {
+        left: 4px;
+    }
+
+    .dot-img-right {
+        right: 4px;
+        bottom: 390px;
+    }
+
+    .about-us-text {
+        width: 100% !important;
+    }
+
+    .about-us-text {
+        padding: 16vh 15px 0px 40px;
+    }
+
+    .m2 {
+        margin-left: 2rem !important;
+    }
+
+    .tab-content {
+        margin-top: 21px;
+    }
+
+    .features-area {
+        padding: 0 0 60px;
+    }
+
+    .service-support .item {
+        padding: 31px 27px;
+    }
+
+    .service {
+        z-index: 0;
+
+    }
+
+    .service .s-img {
+        margin-top: -6rem;
+    }
+
+    .title-header h5:after {
+        top: -10px;
+    }
+
+    .title-header h5:before {
+        top: 19px;
+    }
+
+    .button-87 {
+        margin-left: 0;
+    }
+
+    .contact {
+        padding-bottom: 0;
+    }
+
+    .contact-form {
+
+        bottom: 180px;
+    }
+
+    .map {
+        margin-top: 0;
+    }
+}
+
+.wave-image {
+    margin-top: -0.5rem;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .banner1 img {
+        height: 87vh !important;
+    }
+
+
+}
+
+@media only screen and (min-width: 1025px) {}

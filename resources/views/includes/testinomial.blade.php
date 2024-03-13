@@ -10,7 +10,7 @@
         </div>
         <div class="row align-items-md-center text-white">
             <div class="col-sm-6 col-sm-3 col-md-3 ">
-                <div class="snip1533" data-aos="zoom-out-up">
+                <div class="snip1533">
                     <div>
                         <div>
                             <p>If you do the job badly enough, sometimes you don't get asked to do it again.</p>
@@ -22,7 +22,7 @@
             </div>
 
             <div class="col-sm-6 col-sm-3 col-md-3 ">
-                <div class="snip1533" data-aos="zoom-out-up">
+                <div class="snip1533">
                     <div>
                         <div>
                             <p>I'm killing time while I wait for life to shower me with meaning and happiness. patience
@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-sm-6 col-sm-3 col-md-3 ">
-                <div class="snip1533" data-aos="zoom-out-up">
+                <div class="snip1533">
                     <div>
                         <div>
                             <p>The only skills I have the patience to learn are those that have no real application in
@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="col-sm-6 col-sm-3 col-md-3 ">
-                <div class="snip1533" data-aos="zoom-out-up">
+                <div class="snip1533">
                     <div>
                         <div>
                             <p>The only skills I have the patience to learn are those that have no real application in
@@ -72,7 +72,7 @@
         display: inline-block;
         font-family: 'Roboto', Arial, sans-serif;
         font-size: 16px;
-        margin: 35px 10px 10px;
+        margin: 35px 0 10px;
 
         position: relative;
         text-align: center;

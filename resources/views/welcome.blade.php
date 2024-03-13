@@ -16,24 +16,24 @@
 
             <div class="carousel-item banner1 active">
                 <img src="{{ asset('images/b3.png') }}" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block banner-text">
+                <div class="carousel-caption  banner-text">
 
                     <div class="row">
                         <div class="col-sm-8" data-aos="fade-down">
-                            <p data-aos="fade-right">We Provide IT-Services</p>
+                            <p>We Provide IT-Services</p>
                             <h1 data-aos="fade-up">Welcome To Sisnovate.Inc</h1>
                             <p data-aos="fade-down">Transform the way you work
                                 with a unique and powerful
                                 IT Solution to run your Entire
                                 Business.</p>
-                            <div class="d-flex pt-4">
-                                <button class="button-86 mx-3" role="button">Contact Us</button>
-                                <button class="button-87 mx-3" role="button">Let's Start</button>
+                            <div class="d-flex  pt-4">
+                                <button class="button-86 mx-sm-2 mx-md-3 mx-lg-3" role="button">Contact Us</button>
+                                <button class="button-87 mx-sm-2 mx-md-3 mx-lg-3" role="button">Let's Start</button>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <img data-aos="fade-right" class="hero-img hero-image" src="{{ asset('images/hero-img.png') }}"
-                                alt="" srcset="">
+                        <div class="col-sm-4 ">
+                            <img class="hero-img hero-image" src="{{ asset('images/hero-img.png') }}" alt=""
+                                srcset="">
 
                         </div>
                     </div>
@@ -42,23 +42,23 @@
             </div>
             <div class="carousel-item banner1">
                 <img src="{{ asset('images/b2.png') }}" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block banner-text">
+                <div class="carousel-caption  banner-text">
                     <div class="row">
                         <div class="col-sm-8" data-aos="fade-down">
-                            <p data-aos="fade-right">We Provide IT-Services</p>
+                            <p>We Provide IT-Services</p>
                             <h1 data-aos="fade-up">Welcome To Sisnovate.Inc</h1>
                             <p data-aos="fade-down">Transform the way you work
                                 with a unique and powerful
                                 IT Solution to run your Entire
                                 Business.</p>
-                            <div class="d-flex pt-4">
-                                <button class="button-86 mx-3" role="button">Contact Us</button>
-                                <button class="button-87 mx-3" role="button">Let's Start</button>
+                            <div class="d-flex  pt-4">
+                                <button class="button-86 mx-sm-2 mx-md-3 mx-lg-3" role="button">Contact Us</button>
+                                <button class="button-87 mx-sm-2 mx-md-3 mx-lg-3" role="button">Let's Start</button>
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <img class="hero-img hero-image" data-aos="fade-right" src="{{ asset('images/hero-img.svg') }}"
-                                alt="" srcset="">
+                            <img class="hero-img hero-image" src="{{ asset('images/hero-img.svg') }}" alt=""
+                                srcset="">
 
                         </div>
                     </div>
@@ -67,23 +67,23 @@
             </div>
             <div class="carousel-item banner1 ">
                 <img src="{{ asset('images/b1.jpg') }}" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block banner-text">
+                <div class="carousel-caption  banner-text">
                     <div class="row">
                         <div class="col-sm-8" data-aos="fade-down">
-                            <p data-aos="fade-right">We Provide IT-Services</p>
+                            <p>We Provide IT-Services</p>
                             <h1 data-aos="fade-up">Welcome To Sisnovate.Inc</h1>
                             <p data-aos="fade-down">Transform the way you work
                                 with a unique and powerful
                                 IT Solution to run your Entire
                                 Business.</p>
-                            <div class="d-flex pt-4">
-                                <button class="button-86 mx-3" role="button">Contact Us</button>
-                                <button class="button-87 mx-3" role="button">Let's Start</button>
+                            <div class="d-flex  pt-4">
+                                <button class="button-86 mx-sm-2 mx-md-3 mx-lg-3" role="button">Contact Us</button>
+                                <button class="button-87 mx-sm-2 mx-md-3 mx-lg-3" role="button">Let's Start</button>
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <img class="hero-img hero-image" data-aos="fade-right" src="{{ asset('images/hero-img4.png') }}"
-                                alt="" srcset="">
+                            <img class="hero-img hero-image" src="{{ asset('images/hero-img4.png') }}" alt=""
+                                srcset="">
 
                         </div>
                     </div>

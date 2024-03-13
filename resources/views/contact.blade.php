@@ -18,7 +18,8 @@
     <img src="{{ asset('shapes/dot-line.svg') }}" class="dot-img-left" alt="">
     <img src="{{ asset('shapes/dot-line.svg') }}" class="dot-img-right" alt="">
     <div style="height:150px" style="z-index: -1">
-        <img src="{{ asset('shapes/wave.svg') }}" width="100%" height="150px" alt="" srcset="">
+        <img src="{{ asset('shapes/wave.svg') }}" width="100%" height="150px" class="wave-image" alt=""
+            srcset="">
     </div>
     <div style="clear: both">
 
@@ -28,7 +29,7 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 contact-form">
+            <div class="col-sm-12 col-md-6 col-lg-6 contact-form">
                 <div class="shadow p-3">
                     <form action="#!">
                         <div class="row ">

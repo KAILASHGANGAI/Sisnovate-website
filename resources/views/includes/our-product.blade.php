@@ -1,62 +1,3 @@
-<style>
-    .tab .nav-tabs {
-        /* background-color: #007bff; */
-        border: 1px solid #035c73;
-        /* Set the background color of the tabs */
-        color: white;
-        border-radius: 15px;
-        /* Add a border-radius for rounded corners */
-    }
-
-    .tab .nav-link {
-        color: #035c73 !important;
-        /* Set the text color of the tabs */
-        font-weight: bold;
-        /* Make the text bold */
-        margin: 1px;
-
-    }
-
-    .tab .nav-link:hover {
-        background-color: #035c73;
-        border-radius: 15px;
-        color: white !important;
-        /* Change the background color on hover */
-    }
-
-    .tab .nav-link.active {
-        background-color: #035c73 !important;
-        color: white !important;
-        border-radius: 15px;
-        /* Set the background color of the active tab */
-    }
-
-    .tab p {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        /* Choose an attractive font family */
-        font-size: 18px;
-        /* Set the font size */
-        line-height: 1.5;
-        /* Adjust line height for better readability */
-        color: #333;
-        /* Set the text color */
-    }
-
-    .tab .button-86::before {
-        transform: translate(0%, 0%);
-        width: 100%;
-        height: 100%;
-        background: #035c73;
-        border-radius: 10px;
-    }
-
-    .tab .button-87 {
-        background-image: linear-gradient(45deg, #002561 0%, #0cc658 51%, #0cc652 100%);
-
-    }
-
-    
-</style>
 <section class="container tab mt-4">
     <div class="container">
         <div class="row">
@@ -92,7 +33,7 @@
         <div class="tab-pane " id="justified-tabpanel-0" role="tabpanel" aria-labelledby="justified-tab-0">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="product-card" data-aos="fade-right">
+                    <div class="product-card">
                         <h2 class="display-5 fw-bold attractive-heading">School <br> Management System</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero magni neque maxime at? Nam
                             modi,
@@ -108,11 +49,10 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <img data-aos="fade-left" src="{{ asset('images/services/1.png') }}" class="d-block w-100"
-                        alt="...">
-                    <div data-aos="fade-left" class="d-flex pt-4">
-                        <a class="button-86 mx-3" href="#" role="button">Contact Us</a>
-                        <a class="button-87 mx-3" href="#" role="button">Let's Demo</a>
+                    <img src="{{ asset('images/services/1.png') }}" class="d-block w-100" alt="...">
+                    <div class="d-flex mb-4 pt-4">
+                        <a class="button-86 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Contact Us</a>
+                        <a class="button-87 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Let's Demo</a>
                     </div>
                 </div>
 
@@ -124,7 +64,7 @@
         <div class="tab-pane active" id="justified-tabpanel-1" role="tabpanel" aria-labelledby="justified-tab-1">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="product-card" data-aos="fade-right">
+                    <div class="product-card">
                         <h2 class="display-5 fw-bold attractive-heading">Inventory <br> Management System</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero magni neque maxime at? Nam
                             modi,
@@ -140,11 +80,10 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <img data-aos="fade-left" src="{{ asset('images/services/3.png') }}" class="d-block w-100"
-                        alt="...">
-                    <div data-aos="fade-left" class="d-flex pt-4">
-                        <a class="button-86 mx-3" href="#" role="button">Contact Us</a>
-                        <a class="button-87 mx-3" href="#" role="button">Let's Demo</a>
+                    <img src="{{ asset('images/services/3.png') }}" class="d-block w-100" alt="...">
+                    <div class="d-flex mb-4 pt-4">
+                        <a class="button-86 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Contact Us</a>
+                        <a class="button-87 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Let's Demo</a>
                     </div>
                 </div>
 
@@ -154,7 +93,7 @@
         <div class="tab-pane" id="justified-tabpanel-2" role="tabpanel" aria-labelledby="justified-tab-2">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="product-card" data-aos="fade-right">
+                    <div class="product-card">
                         <h2 class="display-5 fw-bold attractive-heading">Hospital <br> Management System</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero magni neque maxime at? Nam
                             modi,
@@ -170,11 +109,10 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <img data-aos="fade-left" src="{{ asset('images/services/2.png') }}" class="d-block w-100"
-                        alt="...">
-                    <div data-aos="fade-left" class="d-flex pt-4">
-                        <a class="button-86 mx-3" href="#" role="button">Contact Us</a>
-                        <a class="button-87 mx-3" href="#" role="button">Let's Demo</a>
+                    <img src="{{ asset('images/services/2.png') }}" class="d-block w-100" alt="...">
+                    <div class="d-flex mb-4 pt-4">
+                        <a class="button-86 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Contact Us</a>
+                        <a class="button-87 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Let's Demo</a>
                     </div>
                 </div>
 

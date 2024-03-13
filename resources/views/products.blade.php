@@ -139,22 +139,22 @@
             </div>
             <div class="row">
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <img src="{{ asset('images/school/1.svg') }}" class="" height="150px" width="150px">
+                    <img src="{{ asset('images/school/1.svg') }}" class="img-fluid" height="150px">
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <img src="{{ asset('images/school/17.png') }}" class="" height="150px" width="150px">
+                    <img src="{{ asset('images/school/17.png') }}" class="img-fluid" height="150px">
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <img src="{{ asset('images/school/1.svg') }}" class="" height="150px" width="150px">
+                    <img src="{{ asset('images/school/1.svg') }}" class="img-fluid" height="150px">
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <img src="{{ asset('images/school/1.svg') }}" class="" height="150px" width="150px">
+                    <img src="{{ asset('images/school/1.svg') }}" class="img-fluid" height="150px">
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <img src="{{ asset('images/school/1.svg') }}" class="" height="150px" width="150px">
+                    <img src="{{ asset('images/school/1.svg') }}" class="img-fluid" height="150px">
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <img src="{{ asset('images/school/1.svg') }}" class="" height="150px" width="150px">
+                    <img src="{{ asset('images/school/1.svg') }}" class="img-fluid" height="150px">
                 </div>
             </div>
 

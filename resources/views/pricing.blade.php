@@ -19,7 +19,8 @@
     <img src="{{ asset('shapes/dot-line.svg') }}" class="dot-img-left" alt="">
     <img src="{{ asset('shapes/dot-line.svg') }}" class="dot-img-right" alt="">
     <div style="height:150px" style="z-index: -1">
-        <img src="{{ asset('shapes/wave.svg') }}" width="100%" height="150px" alt="" srcset="">
+        <img src="{{ asset('shapes/wave.svg') }}" width="100%" height="150px" class="wave-image" alt=""
+            srcset="">
     </div>
     <div style="clear: both">
 
@@ -27,6 +28,6 @@
 @endsection
 @section('content')
     @include('includes.pricing')
-  
+
 
 @endsection

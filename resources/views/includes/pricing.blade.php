@@ -13,7 +13,7 @@
           </div>
           <!-- Pricing Table starts -->
           <div class="row">
-              <div data-aos="fade-right" class="col-md-4">
+              <div data-aos="fade-down" class="col-md-4">
                   <div class="price-card ">
                       <h2>Personal</h2>
                       <p>The standard version</p>
@@ -28,7 +28,7 @@
                       <a href="#" class="button-87 mx-3 " role="button">Buy Now</a>
                   </div>
               </div>
-              <div data-aos="fade-left" class="col-md-4">
+              <div data-aos="fade-down" class="col-md-4">
                   <div class="price-card featured">
                       <h2>Student</h2>
                       <p>Most popular choice</p>
