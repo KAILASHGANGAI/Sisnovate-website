@@ -25,7 +25,7 @@
                           <li>Monthly Bandwidth</li>
                           <li>Powerful Admin Panel</li>
                       </ul>
-                      <a href="#" class="button-87 mx-3 " role="button">Buy Now</a>
+                      <a href="{{ route('contact') }}" class="button-87 mx-3 " role="button">Buy Now</a>
                   </div>
               </div>
               <div data-aos="fade-down" class="col-md-4">
@@ -41,7 +41,7 @@
                           <li>Powerful Admin Panel</li>
                       </ul>
 
-                      <a href="#" class="button-87 mx-3 " role="button">Buy Now</a>
+                      <a href="{{ route('contact') }}" class="button-87 mx-3 " role="button">Buy Now</a>
 
                   </div>
               </div>
@@ -57,7 +57,7 @@
                           <li>Monthly Bandwidth</li>
                           <li>Powerful Admin Panel</li>
                       </ul>
-                      <a href="#" class="button-87 mx-3 " role="button">Buy Now</a>
+                      <a href="{{ route('contact') }}" class="button-87 mx-3 " role="button">Buy Now</a>
                   </div>
               </div>
           </div>

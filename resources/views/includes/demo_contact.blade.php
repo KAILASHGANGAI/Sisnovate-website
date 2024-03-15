@@ -6,7 +6,7 @@
                     <h1>An End To End Software Built For School, College, University</h1>
                     <h2 class="">Eduwity developed for you to increase efficiency of education management</h2>
                     <div class="text-center">
-                        <button class="button-87  text-center" role="button">Contact Us</button>
+                        <a href="{{ route('contact') }}" class="button-87  text-center" role="button">Contact Us</a>
 
                     </div>
                 </div>
@@ -16,14 +16,35 @@
                 <div class="">
                     <div class="form-parent">
                         <h6 class="text-center pt-4">Schedule a Live Demo</h6>
-                        <form id="contact-form" method="post" action="#" role="form">
+
+                        @if (session()->has('success'))
+                            <div class="alert alert-success">
+                                {{ session()->get('success') }}
+                            </div>
+                        @endif
+
+                        @if (session()->has('failed'))
+                            <div class="alert alert-danger">
+                                {{ session()->get('failed') }}
+                            </div>
+                        @endif
+
+                        <form id="contact-form" method="post" action="{{ route('contact.insert') }}" role="form">
+                            @csrf
+
                             <div class="row">
 
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="py-2">
                                         <div class="form-group">
                                             <input type="text" name="name" class="form-control"
-                                                required="required" data-error="Name is required." placeholder=" Name">
+                                                required="required" data-error="Name is required."
+                                                value="{{ old('name') }}" placeholder=" Name">
+                                            @error('name')
+                                                <span class="text-danger">{{ $message }}</span>
+                                            @enderror
+
+
                                         </div>
                                     </div>
                                 </div>
@@ -31,9 +52,14 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="py-2">
                                         <div class="form-group">
-                                            <input type="tel" name="tel" pattern="[0-9]{10}" maxlength="15"
+                                            <input type="tel" name="phone" pattern="[0-9]{10}" maxlength="15"
                                                 class="form-control" required="required"
-                                                data-error="phone no is required." placeholder="Phone">
+                                                data-error="phone no is required." value="{{ old('phone') }}"
+                                                placeholder="Phone">
+
+                                            @error('phone')
+                                                <span class="text-danger">{{ $message }}</span>
+                                            @enderror
 
                                         </div>
                                     </div>
@@ -44,7 +70,11 @@
                                         <div class="form-group">
                                             <input type="email" name="email" class="form-control"
                                                 required="required" data-error="Valid email is required."
-                                                placeholder="Email">
+                                                value="{{ old('email') }}" placeholder="Email">
+                                            @error('email')
+                                                <span class="text-danger">{{ $message }}</span>
+                                            @enderror
+
 
                                         </div>
                                     </div>

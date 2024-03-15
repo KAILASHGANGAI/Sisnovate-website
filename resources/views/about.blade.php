@@ -12,8 +12,8 @@
                 cupiditate dolores repudiandae maiores sunt recusandae?</p>
         </div>
         <div data-aos="fade-up" class="d-flex pt-4 m2">
-            <a class="button-86 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Contact Us</a>
-            <a class="button-87 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Let's Demo</a>
+            <a class="button-86 mx-sm-2 mx-md-3 mx-lg-3" href="{{ route('contact') }}" role="button">Contact Us</a>
+            <a class="button-87 mx-sm-2 mx-md-3 mx-lg-3" href="{{ route('contact') }}" role="button">Let's Demo</a>
         </div>
     </div>
     <img src="{{ asset('shapes/5.png') }}" data-aos="fade-up" class="about-image" alt="" srcset="">

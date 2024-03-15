@@ -1,58 +1,26 @@
-<style>
-    #myModal {
-        display: none;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #fff;
-        z-index: 1000;
-        border: 13px solid #035c73;
-    }
-
-    #overlay {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-        z-index: 999;
-    }
-
-    .fa-xmark {
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin-top: -1rem;
-        font-size: 22px;
-        color: white;
-        margin-right: -12px;
-    }
-</style>
-<div id="myModal">
+<div id="myModal" class="w-75">
     <i onclick="hideModal()" class="fa-solid fa-xmark "></i>
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 justify-content-center align-items-center my-auto">
-                <img class="hero-img" src="{{ asset('/images/contact.svg') }}" alt="" srcset="">
+            <div class="col-sm-12 col-sm-8 col-lg-6 justify-content-center align-items-center my-auto me-img">
+                <img class="hero-img1" src="{{ asset('/images/contact.svg') }}" class="img-fluid" alt=""
+                    srcset="">
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-sm-8 col-lg-6">
                 <div class="text-center">
                     <h4 class="attractive-heading ">Contact Us !</h4>
 
                 </div>
                 <form action="#!">
                     <div class="row ">
-                        <div class="col-12">
+                        <div class="col-sm-12">
                             <label for="fullname" class="form-label">Full Name <span
                                     class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="fullname" name="fullname" value=""
                                 required>
                         </div>
-                        <div class="col-12">
+                        <div class="col-sm-12">
                             <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
                             <div class="input-group">
                                 <span class="input-group-text">
@@ -66,7 +34,7 @@
                                     required>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-sm-12">
                             <label for="phone" class="form-label">Phone Number</label>
                             <div class="input-group">
                                 <span class="input-group-text">
@@ -79,11 +47,11 @@
                                 <input type="tel" class="form-control" id="phone" name="phone" value="">
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-sm-12">
                             <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
                             <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
                         </div>
-                        <div class="col-12">
+                        <div class="col-sm-12">
                             <div class="d-grid mt-2 pb-2">
                                 <button class="btn btn-primary btn-lg" type="submit">Submit</button>
                             </div>

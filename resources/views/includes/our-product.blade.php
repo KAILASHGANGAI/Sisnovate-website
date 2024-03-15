@@ -51,8 +51,10 @@
                 <div class="col-sm-6">
                     <img src="{{ asset('images/services/1.png') }}" class="d-block w-100" alt="...">
                     <div class="d-flex mb-4 pt-4">
-                        <a class="button-86 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Contact Us</a>
-                        <a class="button-87 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Let's Demo</a>
+                        <a class="button-86 mx-sm-2 mx-md-3 mx-lg-3" href="{{ route('contact') }}"
+                            role="button">Contact Us</a>
+                        <a class="button-87 mx-sm-2 mx-md-3 mx-lg-3" href="{{ route('contact') }}" role="button">Let's
+                            Demo</a>
                     </div>
                 </div>
 
@@ -82,8 +84,10 @@
                 <div class="col-sm-6">
                     <img src="{{ asset('images/services/3.png') }}" class="d-block w-100" alt="...">
                     <div class="d-flex mb-4 pt-4">
-                        <a class="button-86 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Contact Us</a>
-                        <a class="button-87 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Let's Demo</a>
+                        <a class="button-86 mx-sm-2 mx-md-3 mx-lg-3" href="{{ route('contact') }}"
+                            role="button">Contact Us</a>
+                        <a class="button-87 mx-sm-2 mx-md-3 mx-lg-3" href="{{ route('contact') }}" role="button">Let's
+                            Demo</a>
                     </div>
                 </div>
 
@@ -111,8 +115,10 @@
                 <div class="col-sm-6">
                     <img src="{{ asset('images/services/2.png') }}" class="d-block w-100" alt="...">
                     <div class="d-flex mb-4 pt-4">
-                        <a class="button-86 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Contact Us</a>
-                        <a class="button-87 mx-sm-2 mx-md-3 mx-lg-3" href="#" role="button">Let's Demo</a>
+                        <a class="button-86 mx-sm-2 mx-md-3 mx-lg-3" href="{{ route('contact') }}"
+                            role="button">Contact Us</a>
+                        <a class="button-87 mx-sm-2 mx-md-3 mx-lg-3" href="{{ route('contact') }}" role="button">Let's
+                            Demo</a>
                     </div>
                 </div>
 

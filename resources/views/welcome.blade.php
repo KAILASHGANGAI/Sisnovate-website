@@ -27,8 +27,10 @@
                                 IT Solution to run your Entire
                                 Business.</p>
                             <div class="d-flex  pt-4">
-                                <button class="button-86 mx-sm-2 mx-md-3 mx-lg-3" role="button">Contact Us</button>
-                                <button class="button-87 mx-sm-2 mx-md-3 mx-lg-3" role="button">Let's Start</button>
+                                <a href="{{ route('contact') }}" class="button-86 mx-sm-2 mx-md-3 mx-lg-3"
+                                    role="button">Contact Us</a>
+                                <a href="{{ route('contact') }}" class="button-87 mx-sm-2 mx-md-3 mx-lg-3"
+                                    role="button">Let's Start</a>
                             </div>
                         </div>
                         <div class="col-sm-4 ">
@@ -52,8 +54,10 @@
                                 IT Solution to run your Entire
                                 Business.</p>
                             <div class="d-flex  pt-4">
-                                <button class="button-86 mx-sm-2 mx-md-3 mx-lg-3" role="button">Contact Us</button>
-                                <button class="button-87 mx-sm-2 mx-md-3 mx-lg-3" role="button">Let's Start</button>
+                                <a href="{{ route('contact') }}" class="button-86 mx-sm-2 mx-md-3 mx-lg-3"
+                                    role="button">Contact Us</a>
+                                <a href="{{ route('contact') }}" class="button-87 mx-sm-2 mx-md-3 mx-lg-3"
+                                    role="button">Let's Start</a>
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -77,8 +81,10 @@
                                 IT Solution to run your Entire
                                 Business.</p>
                             <div class="d-flex  pt-4">
-                                <button class="button-86 mx-sm-2 mx-md-3 mx-lg-3" role="button">Contact Us</button>
-                                <button class="button-87 mx-sm-2 mx-md-3 mx-lg-3" role="button">Let's Start</button>
+                                <a href="{{ route('contact') }}" class="button-86 mx-sm-2 mx-md-3 mx-lg-3"
+                                    role="button">Contact Us</a>
+                                <a href="{{ route('contact') }}" class="button-87 mx-sm-2 mx-md-3 mx-lg-3"
+                                    role="button">Let's Start</a>
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -180,7 +186,7 @@
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam.
             </p>
-            <button class="button-87 mx-3" role="button">Let's Start</button>
+            <a href="{{ route('contact') }}" class="button-87 mx-3" role="button">Let's Start</a>
 
         </div>
     </section>
@@ -231,7 +237,7 @@
         <div class="cube"></div>
     </div>
     @include('includes.testinomial')
-    {{-- @include('includes.model') --}}
+    @include('includes.model')
     @include('includes/no_of_clients')
 
 @endsection

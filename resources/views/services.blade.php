@@ -13,8 +13,8 @@
                 cupiditate dolores repudiandae maiores sunt recusandae?</p>
         </div>
         <div data-aos="fade-up" class="d-flex pt-4">
-            <a class="button-86 mx-3" href="#" role="button">Contact Us</a>
-            <a class="button-87 mx-3" href="#" role="button">Let's Demo</a>
+            <a class="button-86 mx-3" href="{{ route('contact') }}" role="button">Contact Us</a>
+            <a class="button-87 mx-3" href="{{ route('contact') }}" role="button">Let's Demo</a>
         </div>
     </div>
     <img src="{{ asset('images/services/services.png') }}" data-aos="fade-up" class="about-image service-img" alt=""
@@ -65,7 +65,7 @@
                                 Digital Marketing comprises a platform to&nbsp; approach your customers via email, content
                                 marketing, social media, and many more
                             </div>
-                            <a class="btn-my" href="#">
+                            <a class="btn-my" href="{{ route('contact') }}">
                                 Get Started <i class="ti ti-angle-double-right"></i>
                             </a>
                         </div>
@@ -87,7 +87,7 @@
                                 Digital Marketing comprises a platform to&nbsp; approach your customers via email, content
                                 marketing, social media, and many more
                             </div>
-                            <a class="btn-my" href="#">
+                            <a class="btn-my" href="{{ route('contact') }}">
                                 Get Started <i class="ti ti-angle-double-right"></i>
                             </a>
                         </div>
@@ -109,7 +109,7 @@
                                 Digital Marketing comprises a platform to&nbsp; approach your customers via email, content
                                 marketing, social media, and many more
                             </div>
-                            <a class="btn-my" href="#">
+                            <a class="btn-my" href="{{ route('contact') }}">
                                 Get Started <i class="ti ti-angle-double-right"></i>
                             </a>
                         </div>
@@ -131,7 +131,7 @@
                                 Digital Marketing comprises a platform to&nbsp; approach your customers via email, content
                                 marketing, social media, and many more
                             </div>
-                            <a class="btn-my" href="#">
+                            <a class="btn-my" href="{{ route('contact') }}">
                                 Get Started <i class="ti ti-angle-double-right"></i>
                             </a>
                         </div>
@@ -153,7 +153,7 @@
                                 Digital Marketing comprises a platform to&nbsp; approach your customers via email, content
                                 marketing, social media, and many more
                             </div>
-                            <a class="btn-my" href="#">
+                            <a class="btn-my" href="{{ route('contact') }}">
                                 Get Started <i class="ti ti-angle-double-right"></i>
                             </a>
                         </div>
@@ -175,7 +175,7 @@
                                 Digital Marketing comprises a platform to&nbsp; approach your customers via email, content
                                 marketing, social media, and many more
                             </div>
-                            <a class="btn-my" href="#">
+                            <a class="btn-my" href="{{ route('contact') }}">
                                 Get Started <i class="ti ti-angle-double-right"></i>
                             </a>
                         </div>
@@ -197,7 +197,7 @@
                                 Digital Marketing comprises a platform to&nbsp; approach your customers via email, content
                                 marketing, social media, and many more
                             </div>
-                            <a class="btn-my" href="#">
+                            <a class="btn-my" href="{{ route('contact') }}">
                                 Get Started <i class="ti ti-angle-double-right"></i>
                             </a>
                         </div>
