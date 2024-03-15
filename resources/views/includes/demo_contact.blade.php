@@ -74,8 +74,7 @@
                                             @error('email')
                                                 <span class="text-danger">{{ $message }}</span>
                                             @enderror
-  
-                                            
+
 
                                         </div>
                                     </div>

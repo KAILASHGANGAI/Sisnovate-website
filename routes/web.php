@@ -25,3 +25,7 @@ Route::post('/contact', [ContactController::class, 'insert'])->name('contact.ins
 Route::view('/pricing', 'pricing')->name('pricing');
 Route::view('/blogs', 'blog')->name('blogs');
 Route::view('/career', 'career')->name('career');
+
+
+#admin 
+Route::view('/admin', 'admin/dashboard')->name('admin');
