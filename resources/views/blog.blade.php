@@ -34,70 +34,35 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="row">
-                        <div class="col-sm-6 mb-4">
-                            <div class="card border-0 shadow rounded-lg ">
-                                <img src="{{ asset('./images/blogs/blog-post-1.jpg') }}" width="465" height="310"
-                                    class="img-fluid blog-img" alt="post-thumb">
-                                <div class="card-body">
-                                    <p class="card-date">Dec 30, 2018</p>
-                                    <h5><a class="text-dark text-decoration-none" href="#">Cupidat non proident sunt
-                                            officia
-                                            deserunt mollit
-                                            anim.</a></h5>
-                                </div>
-                                <div class="read-more-link text-right pr-3 pb-3">
-                                    <a href="#" class="btn">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mb-4">
-                            <div class="card border-0 shadow rounded-lg">
-                                <img src="{{ asset('./images/blogs/blog-post-1.jpg') }}" class="img-fluid blog-img"
-                                    width="465" height="310" alt="post-thumb">
-                                <div class="card-body">
-                                    <p class="card-date">Dec 30, 2018</p>
-                                    <h5><a class="text-dark text-decoration-none" href="#">Cupidat non proident sunt
-                                            officia
-                                            deserunt mollit
-                                            anim.</a></h5>
-                                </div>
-                                <div class="read-more-link text-right pr-3 pb-3">
-                                    <a href="#" class="btn">Read More</a>
+
+                        @forelse ($blogs as $item)
+                            <div class="col-sm-6 mb-4">
+                                <div class="card border-0 shadow rounded-lg ">
+                                    @if ($item->image != null || $item->image != '')
+                                        <img src="{{ asset($item->image) }}" width="465" height="310"
+                                            class="img-fluid blog-img" alt="{{ $item->title }}">
+                                    @else
+                                        <img src="{{ asset('./images/blogs/default.jpg') }}" class="card-img-top"
+                                            alt="Sisnovate blogs">
+                                    @endif
+                                    <div class="card-body">
+                                        <p class="card-date">{{ $item->created_at->format('d M, Y') }}</p>
+                                        <h5><a class="text-dark text-decoration-none"
+                                                href="{{ route('blogs.view', $item->slug) }}">{{ $item->title }}</a>
+                                        </h5>
+                                    </div>
+                                    <div class="read-more-link text-right pr-3 pb-3">
+                                        <a href="{{ route('blogs.view', $item->slug) }}" class="btn">Read More</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6 mb-4">
-                            <div class="card border-0 shadow rounded-lg">
-                                <img src="{{ asset('./images/blogs/blog-post-1.jpg') }}" class="img-fluid blog-img"
-                                    width="465" height="310" alt="post-thumb">
-                                <div class="card-body">
-                                    <p class="card-date">Dec 30, 2018</p>
-                                    <h5><a class="text-dark text-decoration-none" href="#">Cupidat non proident sunt
-                                            officia
-                                            deserunt mollit
-                                            anim.</a></h5>
-                                </div>
-                                <div class="read-more-link text-right pr-3 pb-3">
-                                    <a href="#" class="btn">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mb-4">
-                            <div class="card border-0 shadow rounded-lg">
-                                <img src="{{ asset('./images/blogs/blog-post-1.jpg') }}" class="img-fluid blog-img"
-                                    width="465px" height="310" alt="post-thumb">
-                                <div class="card-body">
-                                    <p class="card-date">Dec 30, 2018</p>
-                                    <h5><a class="text-dark text-decoration-none" href="#">Cupidat non proident sunt
-                                            officia
-                                            deserunt mollit
-                                            anim.</a></h5>
-                                </div>
-                                <div class="read-more-link text-right pr-3 pb-3">
-                                    <a href="#" class="btn">Read More</a>
-                                </div>
-                            </div>
-                        </div>
+                        @empty
+                            <h4>No Blogs Found</h4>
+                        @endforelse
+
+                        {{-- Pagination --}}
+
+                        {{ $blogs->links() }}
 
                     </div>
                 </div>
@@ -117,24 +82,14 @@
                         <div class="pt-4">
                             <h4 class="category">Category</h4>
                             <ul class="list-styled">
-                                <li class="nav-item"><a class="d-block text-decoration-none py-3"
-                                        href="#">Investment
-                                        Planning</a>
-                                </li>
-                                <li class="nav-item"><a class="d-block text-decoration-none py-3" href="#">Valuable
-                                        Idea</a></li>
-                                <li class="nav-item"><a class="d-block text-decoration-none py-3" href="#">Market
-                                        Strategy</a></li>
-                                <li class="nav-item"><a class="d-block text-decoration-none py-3"
-                                        href="#">development
-                                        Maping</a>
-                                </li>
-                                <li class="nav-item"><a class="d-block text-decoration-none py-3"
-                                        href="#">Afiliated Marketing</a>
-                                </li>
-                                <li class="nav-item"><a class="d-block text-decoration-none py-3" href="#">Targated
-                                        Marketing</a>
-                                </li>
+                                @forelse ($categories as $category)
+                                    <li class="nav-item"><a class="d-block text-decoration-none py-3"
+                                            href="{{ route('blogs.category', $category->slug) }}">{{ $category->name }}</a>
+                                    </li>
+                                @empty
+                                    <li class="nav-item">No Category
+                                    </li>
+                                @endforelse
                             </ul>
                         </div>
                         <hr>

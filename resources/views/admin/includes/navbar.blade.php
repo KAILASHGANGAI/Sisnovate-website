@@ -1,6 +1,7 @@
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-      <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+      <img class="animation__shake" src="{{ asset('dist/img/AdminLTELogo.png') }}" alt="AdminLTELogo" height="60"
+          width="60">
   </div>
 
   <!-- Navbar -->
@@ -21,6 +22,22 @@
       <!-- Right navbar links -->
       <ul class="navbar-nav ml-auto">
 
+          @auth
+              <li class="nav-item dropdown user-menu mt-2">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      <span class="d-none d-md-inline">{{ Auth::user()->name }}</span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+
+                      <li class="nav-item">
+                          <a href="{{ route('logout') }}" class="nav-link">Logout</a>
+                      </li>
+                  </ul>
+              </li>
+
+
+
+          @endauth
 
 
           <li class="nav-item">
